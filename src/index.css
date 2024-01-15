@@ -1,0 +1,101 @@
+body {
+  background-image: url('./component/16607919_2102.i518.009_sky_cloud_evening_illustration.jpg');
+  background-size: cover; 
+}
+
+.login-text {
+  font-family: Arial, Helvetica, sans-serif;
+  color: whitesmoke;
+  text-align: center;
+}
+
+body {
+  background-image: url(./component/16607919_2102.i518.009_sky_cloud_evening_illustration.jpg); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.login-container {
+  background-color: #7141A5;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.input-field1 {
+  display: block;
+  margin: 0 auto; 
+  text-align: center;
+  border-radius: 8px;
+  margin-bottom: 5px;
+}
+
+.input-field2 {
+  display: block;
+  margin: 0 auto; 
+  text-align: center;
+  border-radius: 8px;
+}
+
+.successful-login {
+  font-family: Arial, Helvetica, sans-serif;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.error-message { 
+  font-family: Arial, Helvetica, sans-serif;
+  color: whitesmoke;
+  text-align: center;
+}
+
+
+.login-button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #A080BF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.back-button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #A080BF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.logout-button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #A080BF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 10px;
+  text-align: right;
+}
